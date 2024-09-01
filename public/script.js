@@ -1,3 +1,6 @@
 window.addEventListener("DOMContentLoaded",()=>{
-    alert('Hello')
+    
+    const rootElement = document.getElementById('root');
+
+    rootElement.insertAdjacentHTML('beforeend','<h1>Hello From The Script File</h1>')
 })
